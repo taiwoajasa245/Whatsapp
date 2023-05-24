@@ -1,3 +1,3 @@
 # Whatsapp Clone
 
-creating the except type colone of whatsapp with all functionality
+creating the of whatsapp with all functionality
