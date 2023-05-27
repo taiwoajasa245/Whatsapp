@@ -1,3 +1,3 @@
 # Whatsapp Clone
 
-creating the of whatsapp with all functionalit
+creating the full functionality of Whatsapp
