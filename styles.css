@@ -1,0 +1,17 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{ 
+    ---bg-color: #111b21; 
+    --color: #e2dede; 
+    --size: 50px; 
+}
+body{ 
+    background-color: var(---bg-color);
+}
+.male-30-image{ 
+    width: var(--size);
+    margin: none;
+}
