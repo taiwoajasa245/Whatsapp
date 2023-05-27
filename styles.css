@@ -7,9 +7,18 @@
     ---bg-color: #111b21; 
     --color: #e2dede; 
     --size: 50px; 
+    ---left-bg-color: #0a1014; 
 }
 body{ 
     background-color: var(---bg-color);
+    border: .5px solid #ffffff2f; 
+}
+.side-nav-panel{ 
+    width: 26em;
+    height: 100vh;
+    background-color: var(---left-bg-color); 
+    /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.572); */
+    border-right: .3px solid #ffffff2c; 
 }
 .male-30-image{ 
     width: var(--size);
