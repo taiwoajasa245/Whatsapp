@@ -11,7 +11,7 @@
 }
 body{ 
     background-color: var(---bg-color);
-    border: .5px solid #ffffff2f; 
+   
 }
 .side-nav-panel{ 
     width: 26em;
@@ -19,6 +19,12 @@ body{
     background-color: var(---left-bg-color); 
     /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.572); */
     border-right: .3px solid #ffffff2c; 
+}
+.right-side-nav-panel { 
+    background-color: var(---bg-color), red;
+    margin-left: 20em;
+    width: 20em;
+    height: 100vh;
 }
 .male-30-image{ 
     width: var(--size);
