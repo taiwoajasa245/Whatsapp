@@ -38,7 +38,6 @@ body{
     align-items: center;
 
 }
-
 .all-svg{ 
     width: 60%;
     display: flex;
@@ -53,5 +52,4 @@ svg {
     margin: none;
     border: 1px solid transparent;
     border-radius: 50%;
-
 }
