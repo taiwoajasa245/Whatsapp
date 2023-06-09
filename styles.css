@@ -52,9 +52,11 @@ svg {
     border-radius: 50%;
 }
 
+/* Search Section */
+
 .search-option{ 
     width: 100%;
-    height: 10vh;
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,14 +67,14 @@ i svg{
 } */
 
 .input-form{
-    width: 23em;
+    /* width: 23em; */
     height: 6.5vh;
     background-color: var(---bg-color);
     border-radius: 12px;
     padding-left: 1.5em;
     display: flex; 
     justify-content: space-around; 
-    align-items: center 
+    align-items: center;
 }
 form{
     width: 100%;
@@ -84,9 +86,10 @@ form{
 
 
 input[type=text]{ 
-    width: 17em;
+    width: 10em;
     height: 2.6vh;
     border: none;
+    /* padding: 0px 20px 0px 110px;  */
     font-family: Arial, Helvetica, sans-serif ; 
     font-size: 15px;
     background-color: var(---bg-color);
