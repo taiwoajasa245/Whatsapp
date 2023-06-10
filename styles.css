@@ -81,7 +81,7 @@ i svg{
     height: 6.5vh;
     background-color: var(---bg-color);
     border-radius: 9px;
-    padding: 0em  3.5em 0em 1em ;
+    padding: 0em  1.2em 0em .6em ;
     display: flex; 
     justify-content: space-between; 
     align-items: center;
