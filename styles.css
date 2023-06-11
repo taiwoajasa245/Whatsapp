@@ -186,9 +186,10 @@ main{
 .message-name{ 
     color: #fff;
     font-family: var(--font-family) ; 
+    /* display: grid;
+    place-items: left; */
     font-size: 17px; 
-    text-align: right;
-    padding-right: 2em ;
+    /* padding-right: 2em ; */
 }
 
 .number{ 
