@@ -22,6 +22,7 @@ body{
     background-color: var(---left-bg-color); 
     /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.572); */
     border-right: .3px solid #ffffff2c; 
+    overflow: auto;
 }
 
 .images-container{ 
@@ -73,11 +74,6 @@ svg {
     align-items: center;
     justify-content: center;
 }
-/* 
-i svg{ 
-    padding: 1em ;
-} */
-
 .input-form{
     /* width: 23em; */
     height: 6.5vh;
@@ -152,7 +148,7 @@ input[type=text]:focus{
 
 /* Message */
 
-.message-1{ 
+.gap{ 
     margin-top: -2em ;
 }
 
@@ -203,9 +199,7 @@ input[type=text]:focus{
     background-color: #00a884; 
     width: 20px;
     height: 20px;
-    text-align: center; 
-
-  
+    text-align: center;  
     border-radius: 50%;
     font-family: var(---font-family); 
     font-size: small;
