@@ -188,10 +188,28 @@ input[type=text]:focus{
     padding-right: 2em ;
 }
 
-.message={ 
-    color: #00a884; 
+.number{ 
+    text-align: center;
+    color: #00a884;
     font-family: var(---font-family); 
     font-size: small;
-
+    display: grid;
+    place-items: center;
+   
 }
+
+.number-message{ 
+    color: #000;
+    background-color: #00a884; 
+    width: 20px;
+    height: 20px;
+    text-align: center; 
+
+  
+    border-radius: 50%;
+    font-family: var(---font-family); 
+    font-size: small;
+   
+}
+
 
