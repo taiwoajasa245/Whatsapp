@@ -324,7 +324,7 @@ main{
     font-family: var(--font-family);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     text-align: center;
     
@@ -333,8 +333,12 @@ main{
 .l-s-text-header{ 
     font-size: xx-large;
 }
+.l-s-image{ 
+    margin-bottom: -10em;
+}
 .l-s-text{
     margin-top: 1.5em;
+   
 }
 .l-s-text-para { 
     padding-top: 20px;

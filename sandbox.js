@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         allSection.style.display = 'flex'; 
         loader.style.display = 'none'; 
-    }, 10000);
+    }, 1000);
 
 })
 
