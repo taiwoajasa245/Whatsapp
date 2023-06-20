@@ -8,6 +8,7 @@
     --color: #e2dede9b; 
     --size: 45px; 
     --left-bg-color: #0a1014; 
+    --text-color: #00a884; 
     --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{ 
@@ -19,9 +20,10 @@ body{
 .loader{ 
     width: 100%;
     height: 100vh; 
+    display: grid;
+    place-content: center;
     background-color: #000;
     color: var(--color);
-    text-align: center;
     font-family: var(--font-family);
 }
 
@@ -29,23 +31,26 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.loader .head{
+/* .loader .head{
     margin: 20px;
-}
+} */
 
 /* .head { 
     padding: 1em;
 } */
 
-/* .loader-el img{ 
-    width: 90px;
-    padding: .3em;
-} */
+ .loader-el .loader-svg{ 
+    width: 60px;
+    height: 0px;
+    transition: 3s;
+  
+} 
 
 #progress-b{ 
     position: relative;
@@ -95,10 +100,10 @@ body{
 
 #bar_2{ 
     position: absolute;
+    transition: 20s;
     width: 1px;
     height: 100%;
-    transition: 10s;
-    background-color: #ffffff64;
+    background-color: var(--text-color);
 }
 
 
