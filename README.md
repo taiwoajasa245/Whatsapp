@@ -28,7 +28,6 @@ This is a WhatsApp clone project that replicates the basic functionality of the 
 - Javascript
 - CSS
 - HTML
-- 
 
 ## Installation
 
