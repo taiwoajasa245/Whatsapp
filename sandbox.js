@@ -30,32 +30,32 @@ window.addEventListener('load', () => {
 })
 
 //// loader_2
-// function moveTwo(){ 
-//     const element = document.getElementById('bar_2');
-//     console.log(element); 
-    
-//     element.style.width = "20em";  
-// } 
-
-window.addEventListener('load', moveTwo()); 
 function moveTwo(){ 
-    const element = document.getElementById('bar_2'); 
+    const element = document.getElementById('bar_2');
+    console.log(element); 
     
     element.style.width = "30em";  
-}
+} 
+
+// window.addEventListener('load', moveTwo()); 
+// function moveTwo(){ 
+//     const element = document.getElementById('bar_2'); 
+    
+//     element.style.width = "30em";  
+// }
 
 window.addEventListener('load', () => { 
-   
-   
-  
-    
-     
+
+    setTimeout(() => {
+        moveTwo(); 
+    }, 20000);
+
     setTimeout(() => {
         allSection.style.display = 'flex'; 
         // loader.style.display = 'none'; 
         loaderTwo.style.display = "none"; 
      
-    }, 100000);
+    }, 0);
 
 })
 

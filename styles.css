@@ -100,8 +100,8 @@ body{
 
 #bar_2{ 
     position: absolute;
-    transition: 20s;
-    width: 1px;
+    transition: 10s;
+    width: 0px;
     height: 100%;
     background-color: var(--text-color);
 }
@@ -150,6 +150,7 @@ section {
 }
 svg { 
     color: rgba(255, 255, 255, 0.722);
+    cursor: pointer;
 }
 .male-30-image{ 
     width: var(--size);
@@ -194,8 +195,6 @@ form{
     justify-content: space-between; 
     align-items: center; 
 }
-
-
 
 input[type=text]{ 
     width: 19.5em;
@@ -282,6 +281,7 @@ main{
     font-family: var(--font-family) ; 
     font-size: 17px;  */
     width: 2em;
+    height: 2em;
     border-radius: 20%;
     
 }
@@ -331,12 +331,12 @@ main{
   ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 20px;
-    height: 5em;
+    /* height: 5em; */
   }
   
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
-    width: 1002px; 
+    width: 10px; 
   }
   
   
