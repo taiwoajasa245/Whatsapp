@@ -34,6 +34,6 @@ This is a WhatsApp clone project that replicates the basic functionality of the 
 1. Clone the repository:
 
 ```bash
-git clone https://https://github.com/taiwoajasa245/Whatsapp.git
+git clone https://https://github.com/taiwoajasa245/Whatsapp.git 
 
 
