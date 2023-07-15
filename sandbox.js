@@ -66,5 +66,52 @@ const loaderTwo = document.querySelector('.loader_2');
 function messageDiv(){ 
     messageInput.style.display = 'block'; 
     leftSideMainPage.style.display = 'none'; 
+    // console.log("hello java");
 }
+
+// chat bot 
+const chatBox = document.getElementById('div_message'); 
+const chatInput = document.querySelector("#chat_box");
+const send = document.getElementById('send_me'); 
+const replyHandle = document.querySelector('.bat');
+
+
+
+function sendMe(){ 
+    const inputValue = String(chatInput.value); 
+    const div = document.createElement("div"); 
+    if( inputValue === ""){ 
+        alert('input Empty'); 
+    }else { 
+    div.innerHTML = inputValue;
+    div.classList.add('input_message'); 
+    chatBox.appendChild(div); 
+    }
+
+
+
+    msgArray = [ 
+        "I see you would like to work with me Taiwo", 
+        "Well that is good we will gladly accept you Taiwo", 
+        "You are the best", 
+        "You a welcome anytime Taiwo"
+    ];
+    // for(let i=0; i<msgArray.length; i++){ 
+    //     const msgs = msgArray[i];         
+    // }
+    const rando =String(msgArray[Math.round(Math.random() * 3)]);
+    const divs = document.createElement("div"); 
+   divs.innerHTML ="<div class='msg-chat'> <img src='images/Musk.jpg' style='margin-top: 10px;' class='chat_box img' alt='musk'> <div style='margin-top: 10px;' class='reply_message'> <p class='msg-body bat' id='handle-reply'> </p> </div> </div>"
+  divs.innerHTML =   
+  const replyHandle = document.querySelector('.bat');
+    replyHandle.innerHTML =';sldkfja;sld ='; 
+    
+    console.log(divs);
+    console.log(replyHandle);
+    divs.classList.add('first_message'); 
+    chatBox.appendChild(divs); 
+
+}
+
+
 
