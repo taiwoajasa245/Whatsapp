@@ -503,7 +503,9 @@ main{
     background-color: var(--bg-color);
     color: #fff;
 }
-
+.bat{ 
+    background-color: red;
+}
 
 .message_div{
     width: 100%;

@@ -73,8 +73,16 @@ function messageDiv(){
 const chatBox = document.getElementById('div_message'); 
 const chatInput = document.querySelector("#chat_box");
 const send = document.getElementById('send_me'); 
-const replyHandle = document.querySelector('.bat');
+const replyHandle = document.querySelector('.msg-body');
+const me = document.querySelector('.bat'); 
 
+/// listen to enter key 
+
+chatInput.addEventListener('keypress', event => { 
+    if (event.keyCode === 13) {
+        send.click(); 
+    }
+}); 
 
 
 function sendMe(){ 
@@ -86,7 +94,9 @@ function sendMe(){
     div.innerHTML = inputValue;
     div.classList.add('input_message'); 
     chatBox.appendChild(div); 
+    inputValue === ""; 
     }
+
 
 
 
@@ -101,11 +111,13 @@ function sendMe(){
     // }
     const rando =String(msgArray[Math.round(Math.random() * 3)]);
     const divs = document.createElement("div"); 
-   divs.innerHTML ="<div class='msg-chat'> <img src='images/Musk.jpg' style='margin-top: 10px;' class='chat_box img' alt='musk'> <div style='margin-top: 10px;' class='reply_message'> <p class='msg-body bat' id='handle-reply'> </p> </div> </div>"
-  divs.innerHTML =   
-  const replyHandle = document.querySelector('.bat');
-    replyHandle.innerHTML =';sldkfja;sld ='; 
-    
+    // divs.innerHTML ="<div class='msg-chat'> <img src='images/Musk.jpg' style='margin-top: 10px;' class='chat_box img' alt='musk'> <div style='margin-top: 10px;' class='reply_message'> <p class='msg-body' id='handle-reply'> Let's build Tesla together Taiwo.</p> </div> </div>"
+    divs.innerHTML = "<div class='msg-chat'> <img src='images/Musk.jpg' style='margin-top: 10px;' class='chat_box img' alt='musk'> <div style='margin-top: 10px;' class='reply_message'> <p class='bat'> Let's build Tesla together Taiwo.</p> </div></div>"
+
+   console.log(me);
+   // me.innerText = " I love jesus"; 
+   
+   
     console.log(divs);
     console.log(replyHandle);
     divs.classList.add('first_message'); 
