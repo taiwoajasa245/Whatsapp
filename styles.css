@@ -259,7 +259,8 @@ main{
 /* Message */
 
 .gap{ 
-    margin-top: -2em ;
+    margin-top: -2em; 
+    opacity: 1.4;
 }
 
 
@@ -270,8 +271,11 @@ main{
     justify-content: space-between;
 }
 .gap:hover{ 
-    background-color: #243038;
+    /* background-color: #243038; */
+    
+    opacity: 5;
     cursor: pointer;
+
 }
 
 .message-image{ 
@@ -503,9 +507,7 @@ main{
     background-color: var(--bg-color);
     color: #fff;
 }
-.bat{ 
-    background-color: red;
-}
+
 
 .message_div{
     width: 100%;
