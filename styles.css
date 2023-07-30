@@ -376,6 +376,7 @@ main{
     flex-direction: column;
     text-align: center;
     
+    
 }
 
 .l-s-text-header{ 
@@ -425,11 +426,13 @@ main{
     background-color: var(--bg-color);
 }
 
-.dec-img{ 
+#dec1{ 
     width: 60px;
     border-radius: 50%;
 }
+
 .dec { 
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -483,6 +486,8 @@ main{
     
 }
 
+
+
 .message_div  .input_message { 
     padding: .5em;
     margin-left: 40em;
@@ -494,11 +499,23 @@ main{
     color: #fff;
 }
 
-.msg-chat .img{ 
+.dec-img { 
+  width: 60px;
+  border-radius: 50%;
+}
+
+#image-1 img{ 
     margin: 40px 10px 50px 60px;
     width: 30px;
     border-radius: 50%;
 }
+
+.msg-chat img { 
+    margin: 40px 10px 50px 60px;
+    width: 30px;
+    border-radius: 50%;
+}
+
 .msg-chat .reply_message{ 
     padding: .5em;
     margin-top: 40px;
@@ -521,4 +538,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+#div_message .input_message { 
+    background-color: #22826d;
+    color: white;
 }
