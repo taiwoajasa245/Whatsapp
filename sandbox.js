@@ -1,6 +1,4 @@
 const leftSideMainPage = document.getElementById('l-s-main'); 
-
-
 const allSection = document.querySelector('.all-section');
 const loader = document.querySelector('.loader'); 
 const loaderTwo = document.querySelector('.loader_2'); 
@@ -64,7 +62,6 @@ const loaderTwo = document.querySelector('.loader_2');
 
 const messageInput = document.getElementById('message-input'); 
 
-
 function messageFuc(){ 
 
     messageInput.style.display = 'block'; 
@@ -103,6 +100,7 @@ window.addEventListener('load', function(){
 
 
 function sendMe(){ 
+
     const inputValue = String(chatInput.value); 
     const div = document.createElement("div"); 
     if( inputValue === " "){ 
