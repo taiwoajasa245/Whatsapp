@@ -17,11 +17,7 @@ This is a WhatsApp clone project that replicates the basic functionality of the 
 
 ## Features
 
-- User authentication: Sign up, sign in, and password reset functionality.
 - Real-time messaging: Send and receive messages instantly.
-- Group chats: Create and participate in group conversations.
-
-- Profile settings: Update user profile information and profile picture.
 
 ## Technologies
 
