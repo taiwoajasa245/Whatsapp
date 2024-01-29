@@ -11,9 +11,7 @@ This is a WhatsApp clone project that replicates the basic functionality of the 
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
